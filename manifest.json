@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Free SaveMyExams",
+    "version": "1.0",
+    "description": "Fuck the view limit with Free SaveMyExams, hahaha!",
+    "permissions": ["scripting"],
+    "host_permissions": ["https://www.savemyexams.com/*"],
+    "action": {
+      "default_title": "Free SaveMyExams",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png"
+      }
+    },
+    "content_scripts": [
+    {
+      "matches": ["https://www.savemyexams.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+  }
