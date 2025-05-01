@@ -17,3 +17,8 @@ chrome://extensions/
 ```
 
 click the **Load unpacked** button and choose the unpacked directory
+
+## How it works?
+It basically clears the value "SME.revision-note-views" in local storage
+See content.js for more info
+![image](https://github.com/user-attachments/assets/a9c51b56-ffbf-4c93-82f0-fda82b843c46)
