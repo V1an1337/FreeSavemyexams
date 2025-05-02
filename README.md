@@ -1,3 +1,4 @@
+事先声明：本插件提倡用户购买正版授权，仅供学习交流使用，严禁用于商业用途，请于24小时内删除。  
 ## Features
 
 - Break the view limitation
