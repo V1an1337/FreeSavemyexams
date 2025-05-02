@@ -1,7 +1,7 @@
 // By V1an1337
 const originalSetItem = localStorage.setItem;
 
-// Actually, the sync is never detected by this method
+// Block SME to set the value
 (() => {
   localStorage.setItem = function(key, value) {
     if (key === "SME.revision-note-views") {
@@ -11,7 +11,7 @@ const originalSetItem = localStorage.setItem;
   };
 })();
 
-// Storage sync? Fucked! (the sync mostly prevented by this method)
+// Prevent Storage sync
 window.addEventListener("storage", (event) => {
   if (event.key === "SME.revision-note-views") {
     console.log("[Plugin] Storage sync detected, clearing...");
