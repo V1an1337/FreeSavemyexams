@@ -1,3 +1,4 @@
+![FreeSavemyexamsLogo](https://github.com/user-attachments/assets/eaa7240b-a916-4b83-a523-6c551c9ab461)  
 事先声明：本插件提倡用户购买正版授权，仅供学习交流使用，严禁用于商业用途，请于24小时内删除。  
 ## Features
 
@@ -17,7 +18,9 @@ go to
 chrome://extensions/
 ```
 
-click the **Load unpacked** button and choose the unpacked directory
+click the **Load unpacked** button and choose the unpacked directory  
+  
+If you are still confused, see [Installation Guide](https://www.yuque.com/u54604179/srfb0f/tn6t15h10xwk1di1)  
 
 ## How it works?
 It basically clears the value "SME.revision-note-views" in local storage  
